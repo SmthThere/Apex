@@ -147,7 +147,8 @@ SubmitButton.MouseButton1Click:Connect(function()
       Notification.Text = "Key is valid!"
       Notification.TextColor3 = Color3.fromRGB(0, 255, 0)
       closeUI()
-      local newScript = loadstring("https://raw.githubusercontent.com/SmthThere/AcronixZ/refs/heads/main/MainScript")
+
+      local newScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/SmthThere/AcronixZ/refs/heads/main/MainScript"))()
       newScript()
   else
       Notification.Text = "Key is invalid!"
