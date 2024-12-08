@@ -10,7 +10,7 @@ KeyGuardLibrary.Set({
 })
 
 local key = ""
-local fileName = "ZAcronixKey.lua"
+local fileName = "ZAcronixKey.txt"
 
 -- Function to write the key to a file
 local function writeKeyToFile(key)
