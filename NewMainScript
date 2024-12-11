@@ -1,6 +1,6 @@
 local KeyGuardLibrary = loadstring(game:HttpGet("https://cdn.keyguardian.org/library/v1.0.0.lua"))()
-local trueData = "07a5692ad42448dea3b6648f520b0921"
-local falseData = "674bad043bc040148065d44eb459a187"
+local trueData = "f1a40132dc704fc69a9f0b34bddaba92"
+local falseData = "fa72fc3ff336426b987d219a0be8bec7"
 
 KeyGuardLibrary.Set({
   publicToken = "a21e97ec856b414fafd3fcba19384796",
