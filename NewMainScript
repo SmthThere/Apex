@@ -31,7 +31,7 @@ local storedKey = readKeyFromFile()
 if storedKey then
   local response = KeyGuardLibrary.validateDefaultKey(storedKey)
   if response == trueData then
-    local newScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/SmthThere/AcronixZ/refs/heads/main/MainScript"))()
+    local newScript = print("Hello")
     newScript()
     return -- Skip the key input UI
   end
