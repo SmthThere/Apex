@@ -150,13 +150,13 @@ DCButton.Size = UDim2.new(0, 40, 0, 40)
 DCButton.Position = UDim2.new(1, -100, 0, 5)
 DCButton.BorderSizePixel = 0
 DCButton.BackgroundTransparency = 1
-DCButton.Image = "https://create.roblox.com/store/asset/10367063084/Discord"
+DCButton.Image = "rbxassetid://10367063084"  -- Corrected to use asset ID
 
 local DCButtonCorner = Instance.new("UICorner")
 DCButtonCorner.CornerRadius = UDim.new(0, 6)
 DCButtonCorner.Parent = DCButton
 
-DCButton.MouseButton1Click:Connect(function()
+DCButton.MouseButton1Click:Connect(function())
     setclipboard("hi")
     Notification.Text = "Copied 'hi' to clipboard!"
     Notification.TextColor3 = Color3.fromRGB(255, 255, 255)
