@@ -156,7 +156,7 @@ local DCButtonCorner = Instance.new("UICorner")
 DCButtonCorner.CornerRadius = UDim.new(0, 6)
 DCButtonCorner.Parent = DCButton
 
-DCButton.MouseButton1Click:Connect(function())
+DCButton.MouseButton1Click:Connect(function()
     setclipboard("hi")
     Notification.Text = "Copied 'hi' to clipboard!"
     Notification.TextColor3 = Color3.fromRGB(255, 255, 255)
